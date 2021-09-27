@@ -1,0 +1,42 @@
+{
+  "name": "data-quality-report",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "upload": "vue-cli-service build && vue-cli-service upload"
+  },
+  "dependencies": {
+    "@leanix/reporting": "^0.4.54",
+    "bootstrap-vue": "^2.21.2",
+    "core-js": "^3.6.5",
+    "ramda": "^0.27.1",
+    "vue": "^2.6.11",
+    "vuex": "^3.4.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-plugin-vuex": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/eslint-config-standard": "^5.1.2",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "eslint-plugin-vue": "^6.2.2",
+    "stylus": "^0.55.0",
+    "stylus-loader": "^3.0.2",
+    "vue-cli-plugin-leanix": "~0.3.1",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "leanixReport": {
+    "id": "net.leanix.report.dataQuality",
+    "title": "Data Quality",
+    "defaultConfig": {}
+  }
+}
